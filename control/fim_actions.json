@@ -2,4 +2,9 @@
   "action": "create",
   "path": "runtime/testfile.txt",
   "content": "Hello from FusionSec C2!"
+},
+{
+  "action": "create",
+  "path": "runtime/testfile2.txt",
+  "content": "Hello from FusionSec C2!"
 }
