@@ -1,10 +1,16 @@
 {
-  "action": "create",
-  "path": "runtime/testfile.txt",
-  "content": "Hello from FusionSec C2!"
-},
-{
-  "action": "create",
-  "path": "runtime/testfile2.txt",
-  "content": "Hello from FusionSec C2!"
+  "actions": [
+    {
+      "isActive": true,
+      "action": "create",
+      "path": "runtime/testfile.txt",
+      "content": "Hello from FusionSec C2!"
+    },
+    {
+      "isActive": false,
+      "action": "create",
+      "path": "runtime/testfile2.txt",
+      "content": "This one should NOT run"
+    }
+  ]
 }
